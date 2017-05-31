@@ -1,5 +1,6 @@
 import csv
 from datetime import datetime
+from sys import argv
 
 from tabulate import tabulate
 
@@ -84,7 +85,7 @@ def main(filename, years):
         avg['Start Date'] = avg['Start Date'].year
         avg['End Date'] = avg['End Date'].year
 
-    print(tabulate(averages, headers='keys', floatfmt=".2f"))
+    print(tabulate(averages, headers='keys', floatfmt='.2f', tablefmt='pipe'))
 
 if __name__ == '__main__':
-    main(argv[1], argv[2])
+    main(argv[1], int(argv[2]))
