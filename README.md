@@ -6,13 +6,13 @@ This repository includes some information I found while researching the Federal 
 
 It's hard to top [Wikipedia](https://en.wikipedia.org/wiki/Prime_rate):
 
-    A prime rate or prime lending rate is an interest rate used by banks, usually the interest rate at which banks lend to favored customers—i.e., those with good credit. Some variable interest rates may be expressed as a percentage above or below prime rate.
+> A prime rate or prime lending rate is an interest rate used by banks, usually the interest rate at which banks lend to favored customers—i.e., those with good credit. Some variable interest rates may be expressed as a percentage above or below prime rate.
 
 ## Where's the raw data?
 
 Historic information on the Prime Rate is provided by [Federal Reserve Economic Data (FRED)](https://fred.stlouisfed.org/) under [the series MPRIME](https://fred.stlouisfed.org/series/MPRIME). This project uses the data found in the [CSV export of the data](https://fred.stlouisfed.org/graph/fredgraph.csv?id=MPRIME).
 
-Raw output from running the script for 5-year, 10-year, and 15-year rate comparisons are in separate files with reasonable names in this directory.
+Raw output from running the script for [5-year](5-year.md), [10-year](10-year.md), and [15-year](15-year.md) rate comparisons are in separate files with reasonable names.
 
 ## Insights
 
